@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import LandingPage from "../pages/LandingPage";
 import MuseumHub from "../pages/MuseumHub";
 import { UserDashboard } from "../pages/Dashboard";
-import { HeritageGallery } from "../pages/HeritageGallery";
+import  HeritageGallery  from "../pages/HeritageGallery";
 import { InterpretersRoom } from "../pages/Interpreter";
 import { ScribesAtelier } from "../pages/ScribesAtelier";
 import { AskTheElder } from "../pages/TheElder";
