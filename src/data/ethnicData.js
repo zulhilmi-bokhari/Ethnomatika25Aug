@@ -222,9 +222,9 @@ export const ethnicData = {
         { id: 'huminodun', title: 'The Legend of Huminodun', category: 'Literature & Folklore', imageUrl: 'https://placehold.co/600x400/10B981/FFF?text=Folklore', description: 'A central figure in Kadazan-Dusun mythology, Huminodun was a maiden who sacrificed herself to save her people from famine, her body parts giving rise to rice and other essential crops.', audioUrl: '/audio/huminodun_story.mp3' },
         { id: 'tajau', title: 'Tajau Jar', category: 'Historical Artifacts', imageUrl: 'https://placehold.co/600x400/A24936/FFF?text=Tajau', description: 'The Tajau is a large earthenware jar, traditionally used for storing rice wine (lihing), water, or as a burial jar. It is a symbol of wealth and status.', arEnabled: true,
           arModel: {
-            src: 'https://cdn.glitch.me/8b4317f6-6c92-411a-a823-31536b13e3b3/Astronaut.glb',
-            iosSrc: 'https://cdn.glitch.me/8b4317f6-6c92-411a-a823-31536b13e3b3/Astronaut.usdz',
-            alt: 'A 3D model of an astronaut',
+          glb: "https://github.com/google/model-viewer/raw/main/packages/shared-assets/models/vase/vase.glb",
+          usdz: "https://github.com/google/model-viewer/raw/main/packages/shared-assets/models/vase/vase.usdz",
+            alt: 'A 3D model of an vase',
           }
         },
         {id: 'sumazau', title: 'Sumazau Dance', category: 'Dance & Performance', imageUrl: 'https://placehold.co/600x400/EC4899/FFF?text=Sumazau', description: 'The Sumazau is a traditional Kadazan-Dusun dance inspired by the eagle\'s flight, performed during the harvest festival (Tadau Kaamatan).', videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'},
