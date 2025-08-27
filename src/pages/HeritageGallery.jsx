@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ethnicData } from "./ethnicData";
+import { ethnicData } from "./data/ethnicData";
 
 export default function HeritageGallery() {
   const [popupData, setPopupData] = useState(null);
