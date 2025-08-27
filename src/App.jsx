@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Header } from "./components/Header";
 import Footer from "./components/Footer";
 import { ExhibitModal } from "./components/ExhibitModal";
@@ -40,7 +40,6 @@ function AppContent() {
     const saved = localStorage.getItem("currentLesson");
     return saved ? JSON.parse(saved) : null;
   });
-
 
   const navigate = useNavigate();
 
@@ -187,10 +186,4 @@ function AppContent() {
   );
 }
 
-export default function App() {
-  return (
-    <Router>
-      <AppContent />
-    </Router>
-  );
-}
+export default AppContent;
